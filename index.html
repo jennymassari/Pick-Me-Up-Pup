@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width" />
 
     <title>Pick-Me-Up Pups</title>
-    <link href="/styles/styles.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/styles.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body class="dark-theme">
@@ -15,10 +15,18 @@
     </header>
 
     <main>
+      <section>
+        <h3>Doggo Count: <span id="dog-count-label"></span> </h3>
+      </section>
+      <button id="add-dog-button">Add Dog</button>
       <section id="dog-img-container">
         <h4>The Pupper Pen 🎾</h4>
         <img id="dog-image" src="imgs/2.jpeg" alt="A random dog" />
       </section>
     </main>
+    <script src = "./src/index.js"></script>
   </body>
 </html>
+
+<!-- “..” Is go up a directory, “.” Is current -->
+ <!-- When you don’t have the “.” , and  use “open index.html” the browser will just stick the whole “href” line onto what every url was already in the browswer -->
